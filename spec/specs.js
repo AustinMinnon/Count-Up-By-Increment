@@ -8,6 +8,6 @@ describe('isZero', function(){
 });
 describe('countUp', function(){
   it("count to first input",function(){
-    expect(countUp(5,5)).to.equal("1,2,3,4,5");
+    expect(countUp(5,5)).to.equal("12345");
 });
 });
