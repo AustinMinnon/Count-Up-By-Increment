@@ -8,6 +8,9 @@ describe('isZero', function(){
 });
 describe('countUp', function(){
   it("count to first input",function(){
-    expect(countUp(5,5)).to.equal("12345");
+    expect(countUp(5,1)).to.eql([1,2,3,4,5]);
 });
+  it("count by second input, up to first input",function(){
+    expect(countUp(15,5)).to.eql([5,10,15]);
+  });
 });
